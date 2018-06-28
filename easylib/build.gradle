@@ -1,0 +1,65 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayName = 'arouter-api'
+    artifact = bintrayName
+    libraryName = 'ARouter sdk'
+    libraryDescription = 'A router for android'
+    libraryVersion = 19
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ moduleName : project.getName() ]
+            }
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.google.code.gson:gson:2.8.2'
+    //glide图形变换的库
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    //网络框架
+    compile 'com.yanzhenjie.nohttp:nohttp:1.1.4'
+//    compile 'com.yanzhenjie.nohttp:okhttp:1.1.4'
+    // json parser.
+    compile 'com.alibaba:fastjson:1.1.54.android'
+//
+    compile 'com.githang:status-bar-compat:0.5.2'
+    //
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //
+    compile 'org.projectlombok:lombok:1.16.8'
+    compile 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.belerweb:pinyin4j:2.5.1'
+    compile 'com.android.support:cardview-v7:25.+'
+    compile 'org.jetbrains:annotations-java5:15.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+//    compile project(':lib-java')
+}

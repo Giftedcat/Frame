@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">easyui</string>
+
+    <string name="photos_num">%1$d张</string>
+    <string name="msg_no_camera">没找到摄像头</string>
+    <string name="msg_maxi_capacity">已达到照片选择上限</string>
+    <string name="commit">确定</string>
+    <string name="commit_num">确定(%1$d/%2$d)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="input_phone_number">手机号码</string>
+    <string name="surround_skip">部分用户可能因为手机套餐类型,由运营商收取接听或者漫游费用</string>
+    <string name="open_call">为了您能使用电话功能，请开启电话权限</string>
+    <string name="prompt">提示</string>
+    <string name="ef_cancel">取消</string>
+    <string name="sim_disable">电话无法拨出，请检查您的电话卡是否有效！</string>
+    <string name="goto_settings">去设置</string>
+
+    <string name="located_precise">精确定位</string>
+    <string name="located_fuzzy">模糊定位</string>
+    <string name="openning">开发中，敬请期待</string>
+
+    <string name="ask_permissions1">为了您能正常使用app的功能，请去设置中，允许app获取位置信息</string>
+    <string name="ask_permissions2">由于没开启相关权限，您将无法很好的使用app</string>
+
+    <string name="goToAttentionSure">确定</string>
+    <string name="goToAttentionCancel">取消</string>
+
+    <string name="next_time_to_update">下次再说</string>
+    <string name="choose_dialog_ok">确认</string>
+    <string name="now_update">立刻升级</string>
+
+    <string-array name="ef_repeat_array">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <string name="year">     年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="ef_safe_area_never_repeat">永不</string>
+    <string name="ef_repeat_working_day">工作日</string>
+    <string name="ef_repeat_weekend">周末</string>
+    <string name="class_time_everyday">每天</string>
+    <string name="ok1">确定</string>
+    <string name="jan">1月</string>
+    <string name="feb">2月</string>
+    <string name="mar">3月</string>
+    <string name="apr">4月</string>
+    <string name="may">5月</string>
+    <string name="jun">6月</string>
+    <string name="jul">7月</string>
+    <string name="aug">8月</string>
+    <string name="sep">9月</string>
+    <string name="oct">10月</string>
+    <string name="nov">11月</string>
+    <string name="dec">12月</string>
+    <string name="input_birth">输入今天或以后的日期</string>
+    <string name="warm_tips">温馨提示</string>
+    <string name="ok">确认</string>
+    <string name="find_watch">开启后手表将响铃一分钟，找到手表后按任意键停止</string>
+</resources>
